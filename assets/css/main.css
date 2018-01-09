@@ -810,6 +810,7 @@
 
 		.row.uniform.\35 0\25 > * {
 			padding: 0.75em 0 0 0.75em;
+            width:50%;
 		}
 
 		.row.uniform.\35 0\25 {
@@ -1240,6 +1241,7 @@
 
 		.row.uniform.\35 0\25 > * {
 			padding: 0.625em 0 0 0.625em;
+            width:100%;
 		}
 
 		.row.uniform.\35 0\25 {
@@ -2235,6 +2237,14 @@
 			margin: 0 0 2em 0;
 			width: 100%;
 		}
+
+.image.fit img:hover {
+				opacity: 0.5;
+    -moz-transition: -moz-transform 0.25s ease, opacity 0.25s ease, -moz-filter 1s ease, -webkit-filter 1s ease;
+			-webkit-transition: -webkit-transform 0.25s ease, opacity 0.25s ease, -webkit-filter 1s ease, -webkit-filter 1s ease;
+			-ms-transition: -ms-transform 0.25s ease, opacity 0.25s ease, -ms-filter 1s ease, -webkit-filter 1s ease;
+			transition: transform 0.25s ease, opacity 0.25s ease, filter 1s ease, -webkit-filter 1s ease;
+			}
 
 			.image.fit img {
 				width: 100%;
